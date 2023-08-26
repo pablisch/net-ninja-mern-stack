@@ -4,7 +4,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const workoutsRoutes = require('./routes/workouts');
 
-const mongoUri = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0.suchhmq.mongodb.net/?retryWrites=true&w=majority`
+const mongoUri = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0.suchhmq.mongodb.net/mern-workouts-app?retryWrites=true&w=majority`
 
 // Create the Express app.
 const app = express();
